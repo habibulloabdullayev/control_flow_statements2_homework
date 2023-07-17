@@ -6,5 +6,13 @@ def main(a,b):
         b: Second number.
     Returns:
         int: return answer.
-    """
-    return
+    """ 
+    if a==b:
+        print(0)
+    if a>b:
+        print(a)
+    if b>a:
+        print(b)
+    return ' '
+print(main(3,7))
+print(main(5,5))
